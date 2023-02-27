@@ -23,7 +23,8 @@ namespace MyFirstCodeOOP
             return $"{base.ToString()}" +
                 $"\n\t Comission Percentage.....{ConvertPercentage(ComissionPercentage):P2}" +
                 $"\n\t Sales....................{Sales:C2}" +
-                $"\n\t Value To Pay.............{GetValueToPay():C2}";               
+                $"\n\t Value To Pay.............{GetValueToPay():C2}";          
+            
         }
 
         public float ConvertPercentage(float comissionPercentage)
